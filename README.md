@@ -8,7 +8,7 @@
 
 印刷体手机号
 
-<img src="https://github.com/sam-rjl/HandwrittenDigitsRecogAndroid/blob/master/App_pics/Screenshot_20200418-210824.jpg" height=600
+<img src="https://github.com/sam-rjl/HandwrittenDigitsRecogAndroid/blob/master/App_pics/Screenshot_20200418-203546.jpg" height=600
 width=350/>
 
 手写体邮编

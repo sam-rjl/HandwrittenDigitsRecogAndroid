@@ -4,4 +4,4 @@
 模型搭建用的keras CNN,数据集为传统的mnist数据集
 用OpenCV 进行图像分割
 最终完成的功能可以进行多书写体数字实时识别
-![image]https://github.com/sam-rjl/HandwrittenDigitsRecogAndroid/blob/master/App_pics/Screenshot_20200418-202922.jpg
+![image](https://github.com/sam-rjl/HandwrittenDigitsRecogAndroid/blob/master/App_pics/Screenshot_20200418-202922.jpg)

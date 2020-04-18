@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/TensorFlowAndroidMNIST-master.iml" filepath="$PROJECT_DIR$/TensorFlowAndroidMNIST-master.iml" group="TensorFlowAndroidMNIST-master" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="TensorFlowAndroidMNIST-master/app" />
+      <module fileurl="file://$PROJECT_DIR$/openCVLibrary320/openCVLibrary320.iml" filepath="$PROJECT_DIR$/openCVLibrary320/openCVLibrary320.iml" group="TensorFlowAndroidMNIST-master/openCVLibrary320" />
+    </modules>
+  </component>
+</project>

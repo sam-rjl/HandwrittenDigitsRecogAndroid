@@ -1,0 +1,47 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.1"
+    defaultConfig {
+        applicationId "jp.narr.tensorflowmnist"
+        minSdkVersion 19
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+    }
+//    android.applicationVariants.all {
+//        variant ->
+//            variant.outputs.all {
+//                // 此处指定生成的apk文件名
+//                outputFileName = "HandWrite_Digit.apk"
+//            }
+//    }
+    dexOptions{
+
+        javaMaxHeapSize "4g"
+
+    }
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+    buildTypes {
+        release {
+            //shrinkResources true
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.0.1'
+    //compile 'jp.narr.support:appcompat-v7:23.+'
+    compile project(':openCVLibrary320')
+    compile 'com.android.support.constraint:constraint-layout:1.1.3'
+
+}

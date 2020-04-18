@@ -13,4 +13,5 @@ width=350/>
 
 手写体邮编
 
-如果想试用app,
+# 如何使用APP
+下载根目录下的app-debug.apk,接着下载OpenCVManager_apks里适合手机架构的OpenCVManager，安装后分别打开俩app进行使用

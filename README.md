@@ -5,6 +5,7 @@
 用OpenCV 进行图像分割
 最终完成的功能可以进行多书写体数字实时识别
 <img src="https://github.com/sam-rjl/HandwrittenDigitsRecogAndroid/blob/master/App_pics/Screenshot_20200418-202922.jpg" height=600 width=350 />
+
 印刷体手机号
 <img src="https://github.com/sam-rjl/HandwrittenDigitsRecogAndroid/blob/master/App_pics/Screenshot_20200418-210824.jpg" height=600
 width=350/>
